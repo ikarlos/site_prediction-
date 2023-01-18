@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #03C988;
+}
+
+.formm {
+    margin-top: 10vh;
+    background-color: #13005A;
+    margin-left: 40vw;
+    display: inline-grid;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px solid rgb(240, 163, 163);
+    padding: 50px;
+}
+
+.formm h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #03C988;
+    margin-bottom: 30px;
+}
+
+.formm label {
+    margin-left: 42%;
+    margin-top: 10px;
+
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #1C82AD;
+
+    border-radius: 30px;
+    font-weight: 400 !important;
+
+
+}
+
+.formm input {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+
+}
+
+
+.formm button {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.l {
+    display: flex;
+
+}
+
+.l label {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.l input {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #03C988;
+}
+
+.formm input[type='checkbox'] {
+
+    width: 10px;
+    height: 10px;
+
+
+}
+
+.formm button {
+    margin-top: 80px;
+    margin-left: 0px;
+    background-color: #03C988;
+}
+
+.formm button:hover {
+    background-color: #003c7c;
+
+}
