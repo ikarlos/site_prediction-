@@ -1,25 +1,31 @@
+body {
+    background-color: #FDEEDC;
+}
+
 * {
     margin: 0;
     padding: 0;
+
 }
 
-body {
-    background-color: #03C988;
-}
+
+
 
 .formm {
-    margin-top: 10vh;
-    background-color: #13005A;
+    margin-top: 5vh;
+    background-color: #CDE990;
     margin-left: 40vw;
     display: inline-grid;
     font-family: Arial, Helvetica, sans-serif;
     border: 0px solid rgb(240, 163, 163);
     padding: 50px;
+    color: black;
+    border-radius: 30px;
 }
 
 .formm h1 {
     font-family: 'Open Sans', sans-serif;
-    color: #03C988;
+    color: rgb(39, 38, 38);
     margin-bottom: 30px;
 }
 
@@ -29,7 +35,7 @@ body {
 
     display: inline-block;
     margin-bottom: .5rem;
-    color: #1C82AD;
+    /* color: #1C82AD; */
 
     border-radius: 30px;
     font-weight: 400 !important;
@@ -80,18 +86,14 @@ body {
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #697e47;
+
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -122,6 +124,8 @@ body {
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     margin-top: 30px;
     border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 0px;
 }
 
 .l {
@@ -131,7 +135,8 @@ body {
 
 .l label {
     margin-left: 10px;
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 13px;
 }
 
 .l input {
@@ -142,19 +147,30 @@ body {
 
 .formm input[type='checkbox'] {
 
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
 
 
 }
 
-.formm button {
-    margin-top: 80px;
-    margin-left: 0px;
-    background-color: #03C988;
-}
+
 
 .formm button:hover {
-    background-color: #003c7c;
+    background-color: #026846;
+
+
+}
+
+/* result page */
+.result {
+    position: absolute;
+    top: 40vh;
+    left: 35vw;
+    font-size: 60px;
+    color: black;
+    overflow: hidden;
+    display: flex;
+    font-weight: bold;
+    font-family: sans-serif;
 
 }

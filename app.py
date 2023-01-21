@@ -49,14 +49,14 @@ def hello_world():
 
 
 
-    return render_template("index.html")
+    return render_template("index.html")   
 @app.route("/result1")
 def result1():
-    return render_template("result.html",result="Contact a doctor imediatly")
+    return render_template("result.html",result="GET",result1 ="SOME",result2= "HELP!")
 
 @app.route("/result2")
 def result2():
-    return render_template("result.html",result="you are fine")
+    return render_template("result.html",result="YOU ",result1="ARE",result2=" FINE😊")
 
 if __name__ == "__main__":
     app.run(debug=True)
